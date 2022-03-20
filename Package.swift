@@ -4,18 +4,22 @@
 import PackageDescription
 
 let package = Package(
-    name: "simple-composable-architecture",
+    name: "SimpleComposableArchitecture",
     platforms: [
         .iOS(.v13)
     ],
     products: [
-        .library(name: "simple-composable-architecture", targets: ["simple-composable-architecture"]),
+        .library(name: "SimpleComposableArchitecture", targets: ["SimpleComposableArchitecture"]),
     ],
     dependencies: [
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets: [
-        .target(name: "simple-composable-architecture", dependencies: []),
-        .testTarget(name: "simple-composable-architectureTests", dependencies: ["simple-composable-architecture"]),
+        .target(
+            name: "SimpleComposableArchitecture",
+            dependencies: []),
+        .testTarget(
+            name: "SimpleComposableArchitecture",
+            dependencies: ["SimpleComposableArchitecture"]),
     ]
 )

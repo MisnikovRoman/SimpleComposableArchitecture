@@ -5,7 +5,7 @@ open class Store<State, Action, Dependencies>: ObservableObject {
 
     // MARK: - Public Properties
     
-    @Published var state: State
+    @Published public var state: State
     
     // MARK: - Private Properties
     
@@ -13,7 +13,7 @@ open class Store<State, Action, Dependencies>: ObservableObject {
     
     // MARK: - Initializers
     
-    init(initialState: State, dependencies: Dependencies) {
+    public init(initialState: State, dependencies: Dependencies) {
         self.state = initialState
         self.dependencies = dependencies
     }
