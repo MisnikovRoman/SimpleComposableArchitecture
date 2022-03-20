@@ -19,7 +19,7 @@ let package = Package(
             name: "SimpleComposableArchitecture",
             dependencies: []),
         .testTarget(
-            name: "SimpleComposableArchitecture",
+            name: "SimpleComposableArchitectureTests",
             dependencies: ["SimpleComposableArchitecture"]),
     ]
 )
