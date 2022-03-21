@@ -1,7 +1,7 @@
 import XCTest
-@testable import simple_composable_architecture
+@testable import SimpleComposableArchitecture
 
-final class simple_composable_architectureTests: XCTestCase {
+final class SimpleComposableArchitectureTests: XCTestCase {
     func testExample() throws {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
